@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fdf2f8; /* hồng nhạt */
+}
+
+.cv-container {
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cv-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid #ffadd2;
+}
+
+h1 {
+  margin: 0;
+  color: #d6336c;
+}
+
+h3 {
+  margin: 5px 0 0;
+  font-weight: normal;
+  color: #ff4d6d;
+}
+
+.cv-info {
+  margin-top: 15px;
+  padding: 10px;
+  background: #fff0f6;
+  border-radius: 8px;
+}
+
+.cv-summary,
+.cv-skills {
+  margin-top: 20px;
+}
+
+h2 {
+  color: #d6336c;
+}
+
+.cv-skills ul {
+  list-style: none;
+  padding: 0;
+}
+
+.cv-skills li {
+  background: #ffe6f0;
+  margin: 5px 0;
+  padding: 8px;
+  border-radius: 6px;
+}
